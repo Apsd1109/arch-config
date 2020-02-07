@@ -41,7 +41,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -115,7 +115,7 @@ bindsym $mod+a focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1 "
 set $ws2 "2 "
-set $ws3 "3"
+set $ws3 "3 "
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
@@ -189,13 +189,15 @@ bar {
 }
 
 #CUSTOM KEYBINDS, PLEASE NOTE VIM-LIKE FOCUS NAVIGATION HAS BEEN TURNED OFF
-bindsym $mod+shift+l exec i3lock --color 475263
+bindsym $mod+shift+l exec i3lock -c 000000 -e
 
 #STARTUP COMMANDS AND OTHER DEFAULTS
 exec_always nitrogen --restore
 assign [class="firefox"] $ws1
 for_window [class="firefox"] focus
-assign [class="UXTerm"] $ws2
-for_window [class="UXTerm"] focus
+assign [class="Alacritty"] $ws2
+for_window [class="Alacritty"] focus
+assign [class="jetbrains-toolbox"] $ws3
+
 
 
