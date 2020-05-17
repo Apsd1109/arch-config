@@ -1,6 +1,0 @@
-2020/05/04-15:20:02.674 2d858 Reusing MANIFEST /home/anda/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/05/04-15:20:02.674 2d858 Recovering log #74
-2020/05/04-15:20:02.674 2d858 Reusing old log /home/anda/.config/google-chrome/Default/Sync Data/LevelDB/000074.log 
-2020/05/04-15:31:36.884 2dd25 Level-0 table #78: started
-2020/05/04-15:31:36.893 2dd25 Level-0 table #78: 111297 bytes OK
-2020/05/04-15:31:36.896 2dd25 Delete type=0 #74

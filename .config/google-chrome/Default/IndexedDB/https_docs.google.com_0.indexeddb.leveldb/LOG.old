@@ -1,8 +1,0 @@
-2020/05/16-16:24:26.124 12f5b3 Reusing MANIFEST /home/anda/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/05/16-16:24:26.124 12f5b3 Recovering log #750
-2020/05/16-16:24:26.125 12f5b3 Reusing old log /home/anda/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000750.log 
-2020/05/16-16:24:53.259 71f Level-0 table #754: started
-2020/05/16-16:24:53.259 71f Level-0 table #754: 0 bytes OK
-2020/05/16-16:24:53.264 71f Delete type=0 #750
-2020/05/16-16:24:53.265 71f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/05/16-16:24:53.265 71f Manual compaction at level-1 from (begin) .. (end); will stop at (end)

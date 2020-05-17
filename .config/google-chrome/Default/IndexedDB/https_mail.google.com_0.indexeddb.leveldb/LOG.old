@@ -1,7 +1,0 @@
-2020/04/26-21:23:57.078 6a41 Reusing MANIFEST /home/anda/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/04/26-21:23:57.079 6a41 Recovering log #3
-2020/04/26-21:23:57.079 6a41 Reusing old log /home/anda/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
-2020/04/26-21:23:59.108 2521 Level-0 table #5: started
-2020/04/26-21:23:59.111 2521 Level-0 table #5: 1202 bytes OK
-2020/04/26-21:23:59.113 2521 Delete type=0 #3
-2020/04/26-21:23:59.114 2521 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
