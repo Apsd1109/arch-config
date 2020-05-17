@@ -6,7 +6,7 @@ set $mod Mod4
 
 # System Font
 # Also change in /home/anda/.gtkrc-2.0 or lxappearance
-font pango:SFNS Display 14
+font pango:SFNS Display 13
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -164,8 +164,8 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-		status_command i3status
-        #status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
+		#status_command i3status
+        status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
 		colors {
 		background $bg-colour
 	   	separator #757575
@@ -179,12 +179,14 @@ bar {
 #CUSTOM KEYBINDS, PLEASE NOTE VIM-LIKE FOCUS NAVIGATION HAS BEEN TURNED OFF
 bindsym $mod+shift+l exec i3lock -c 000000 -e -i /home/anda/pictures/background/Glitch_Fox_1920x1080.png
 bindsym $mod+w exec google-chrome-stable
+bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+bindsym $mod+m exec sm
 
 #STARTUP COMMANDS AND OTHER DEFAULTS
-#exec bluetoothctl power on
-#exec bluetoothctl connect E8:80:60:40:BA:D8
-#exec xflux -l 43.6 -g -79.7 -k 2700
+exec_always /home/anda/scripts/mouse.sh
 exec_always nitrogen --restore
+exec_always picom
 assign [class="Google-chrome"] $ws1
 for_window [class="Google-chrome"] focus
 assign [class="Alacritty"] $ws2

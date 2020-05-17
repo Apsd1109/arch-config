@@ -1,0 +1,5 @@
+2020/04/26-19:54:42.053 26297 Reusing MANIFEST /home/anda/.config/google-chrome/Default/IndexedDB/https_www.networkworld.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/26-19:55:14.059 3648 Level-0 table #5: started
+2020/04/26-19:55:14.061 3648 Level-0 table #5: 829 bytes OK
+2020/04/26-19:55:14.064 3648 Delete type=0 #3
+2020/04/26-19:55:14.064 3648 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,48 @@
+{
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCx48Jm+JX8RoE7ub10HIgW1F4Pw25G7pYvZxIiPXRCFsea1IFr76xP4DLVBJm9NZftlKivHW9Y//RgwvMqoBgx3FlQl9UMS1rcICSNZyG2MffV1Fh2yNlATb3i1/Ir640H35wCVTXT2iZN4BAOiqfacqQDfEqyu3yt1rS9z0zOhQIDAQAB",
+   "name": "Totoro Rainy Day",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 240, 222, 194 ],
+         "button_background": [ 232, 232, 232 ],
+         "control_background": [ 0, 153, 51 ],
+         "frame": [ 67, 73, 44 ],
+         "frame_inactive": [ 68, 77, 76 ],
+         "frame_incognito": [ 255, 255, 255 ],
+         "frame_incognito_inactive": [ 255, 255, 255 ],
+         "ntp_background": [ 3, 3, 3 ],
+         "ntp_header": [ 121, 48, 56 ],
+         "ntp_link": [ 240, 224, 194 ],
+         "ntp_link_underline": [ 73, 82, 81 ],
+         "ntp_section": [ 51, 51, 0 ],
+         "ntp_section_link": [ 0, 51, 102 ],
+         "ntp_section_link_underline": [ 0, 51, 102 ],
+         "ntp_section_text": [ 238, 235, 227 ],
+         "ntp_text": [ 240, 224, 194 ],
+         "tab_background_text": [ 0, 0, 0 ],
+         "tab_text": [ 238, 235, 227 ],
+         "toolbar": [ 73, 82, 81 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_ntp_attribution": "images/theme_ntp_attribution.png",
+         "theme_ntp_background": "images/theme_ntp_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "center bottom",
+         "ntp_background_repeat": "repeat-x",
+         "ntp_logo_alternate": 0
+      },
+      "tints": {
+         "background_tab": [ -1.0, 0.5, 0.75 ],
+         "buttons": [ -1.0, -1.0, -1.0 ],
+         "frame": [ -1.0, -1.0, -1.0 ],
+         "frame_inactive": [ -1.0, -1.0, 0.75 ],
+         "frame_incognito": [ -1.0, 0.2, 0.35 ],
+         "frame_incognito_inactive": [ -1.0, 0.3, 0.6 ]
+      }
+   },
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.15"
+}

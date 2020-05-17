@@ -1,0 +1,6 @@
+2020/04/26-23:17:19.984 1c2f1 Reusing MANIFEST /home/anda/.config/google-chrome/Default/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/26-23:17:19.984 1c2f1 Recovering log #7
+2020/04/26-23:17:19.985 1c2f1 Reusing old log /home/anda/.config/google-chrome/Default/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000007.log 
+2020/05/04-15:20:01.225 2521 Level-0 table #12: started
+2020/05/04-15:20:01.246 2521 Level-0 table #12: 1451512 bytes OK
+2020/05/04-15:20:01.248 2521 Delete type=0 #7

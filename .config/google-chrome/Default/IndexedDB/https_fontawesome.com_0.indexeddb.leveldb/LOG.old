@@ -1,0 +1,15 @@
+2020/04/26-21:05:18.499 23a4 Reusing MANIFEST /home/anda/.config/google-chrome/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/26-21:05:18.499 23a4 Recovering log #11
+2020/04/26-21:05:18.499 23a4 Reusing old log /home/anda/.config/google-chrome/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/000011.log 
+2020/04/26-21:07:06.785 2521 Level-0 table #16: started
+2020/04/26-21:07:06.790 2521 Level-0 table #16: 8120 bytes OK
+2020/04/26-21:07:06.792 2521 Delete type=0 #11
+2020/04/26-21:07:06.793 2521 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/04/26-21:07:06.793 2521 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 765 : 1
+2020/04/26-21:07:06.793 2521 Compacting 1@1 + 1@2 files
+2020/04/26-21:07:06.796 2521 Generated table #17@1: 53 keys, 1104 bytes
+2020/04/26-21:07:06.796 2521 Compacted 1@1 + 1@2 files => 1104 bytes
+2020/04/26-21:07:06.798 2521 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/04/26-21:07:06.798 2521 Delete type=2 #16
+2020/04/26-21:07:06.798 2521 Delete type=2 #13
+2020/04/26-21:07:06.799 2521 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 765 : 1 .. (end); will stop at (end)

@@ -1,0 +1,7 @@
+2020/04/25-16:29:29.034 6fc Reusing MANIFEST /home/anda/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/25-16:29:29.035 6fc Recovering log #3
+2020/04/25-16:29:29.035 6fc Reusing old log /home/anda/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000003.log 
+2020/04/25-16:30:01.050 5ba Level-0 table #5: started
+2020/04/25-16:30:01.053 5ba Level-0 table #5: 1548 bytes OK
+2020/04/25-16:30:01.055 5ba Delete type=0 #3
+2020/04/25-16:30:01.055 5ba Manual compaction at level-0 from (begin) .. (end); will stop at (end)

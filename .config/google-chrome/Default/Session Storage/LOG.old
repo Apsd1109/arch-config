@@ -1,0 +1,18 @@
+2020/05/04-15:20:02.827 2d850 Reusing MANIFEST /home/anda/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2020/05/04-15:20:02.829 2d850 Recovering log #72
+2020/05/04-15:20:02.829 2d850 Reusing old log /home/anda/.config/google-chrome/Default/Session Storage/000072.log 
+2020/05/04-15:24:58.452 2e2de Level-0 table #76: started
+2020/05/04-15:24:58.459 2e2de Level-0 table #76: 25170 bytes OK
+2020/05/04-15:24:58.460 2e2de Delete type=0 #72
+2020/05/04-15:24:58.461 2e2de Compacting 4@0 + 1@1 files
+2020/05/04-15:24:58.466 2e2de Generated table #77@0: 1091 keys, 40691 bytes
+2020/05/04-15:24:58.466 2e2de Compacted 4@0 + 1@1 files => 40691 bytes
+2020/05/04-15:24:58.467 2e2de compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/05/04-15:24:58.467 2e2de Delete type=2 #76
+2020/05/04-15:24:58.467 2e2de Delete type=2 #73
+2020/05/04-15:24:58.467 2e2de Delete type=2 #66
+2020/05/04-15:24:58.467 2e2de Delete type=2 #70
+2020/05/04-15:24:58.467 2e2de Delete type=2 #68
+2020/05/05-15:45:48.950 2e2de Level-0 table #79: started
+2020/05/05-15:45:48.953 2e2de Level-0 table #79: 23004 bytes OK
+2020/05/05-15:45:48.955 2e2de Delete type=0 #75

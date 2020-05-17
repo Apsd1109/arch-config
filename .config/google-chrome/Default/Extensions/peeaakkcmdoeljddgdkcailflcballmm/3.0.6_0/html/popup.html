@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title i18n-text="waterlooWorksAzureOptions"></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/popup.css">
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo"></div>
+    <div class="checkbox-slide">
+        <input type="checkbox" id="enable-azure">
+        <label for="enable-azure"></label>
+    </div>
+</div>
+
+<div class="content">
+    <div class="btn btn-azure" id="open-waterlooworks">
+        <div class="btn-icon"><img src="../img/popup-icon-waterloo.png" alt="Waterloo"></div>
+        <div class="btn-text" i18n-text="openWaterlooWorks"></div>
+    </div>
+    <div class="btn btn-green" id="more-options">
+        <div class="btn-icon"><img src="../img/popup-icon-cog.png" alt="Settings"></div>
+        <div class="btn-text" i18n-text="moreOptions"></div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="report">
+        <span i18n-text="extensionDidntWork"></span>
+        <span class="link" id="report-bug" i18n-text="reportIssue"></span>
+    </div>
+</div>
+
+<div class="azure-toast azure-toast-hidden" id="azure-toast" i18n-text="needRefreshToApply"></div>
+
+<script type="text/javascript" src="/js/libs/jquery.js"></script>
+<script type="text/javascript" src="/js/libs/localization.js"></script>
+<script type="text/javascript" src="/js/configs.js"></script>
+<script type="text/javascript" src="/js/popup.js"></script>
+
+</body>
+</html>

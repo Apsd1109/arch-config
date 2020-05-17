@@ -1,0 +1,45 @@
+2020/05/07-19:03:50.096 5e9 Reusing MANIFEST /home/anda/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2020/05/07-19:03:50.097 5e9 Recovering log #78
+2020/05/07-19:03:50.097 5e9 Reusing old log /home/anda/.config/google-chrome/Default/Session Storage/000078.log 
+2020/05/07-21:00:48.240 896 Level-0 table #82: started
+2020/05/07-21:00:48.242 896 Level-0 table #82: 18717 bytes OK
+2020/05/07-21:00:48.244 896 Delete type=0 #78
+2020/05/07-21:59:41.621 896 Level-0 table #84: started
+2020/05/07-21:59:41.626 896 Level-0 table #84: 20326 bytes OK
+2020/05/07-21:59:41.627 896 Delete type=0 #81
+2020/05/08-11:53:41.746 896 Level-0 table #86: started
+2020/05/08-11:53:41.750 896 Level-0 table #86: 20976 bytes OK
+2020/05/08-11:53:41.752 896 Delete type=0 #83
+2020/05/08-11:53:41.752 896 Compacting 4@0 + 1@1 files
+2020/05/08-11:53:41.759 896 Generated table #87@0: 1238 keys, 80626 bytes
+2020/05/08-11:53:41.759 896 Compacted 4@0 + 1@1 files => 80626 bytes
+2020/05/08-11:53:41.760 896 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/05/08-11:53:41.761 896 Delete type=2 #79
+2020/05/08-11:53:41.761 896 Delete type=2 #82
+2020/05/08-11:53:41.761 896 Delete type=2 #86
+2020/05/08-11:53:41.761 896 Delete type=2 #84
+2020/05/08-11:53:41.761 896 Delete type=2 #77
+2020/05/08-15:40:04.528 896 Level-0 table #89: started
+2020/05/08-15:40:04.533 896 Level-0 table #89: 44475 bytes OK
+2020/05/08-15:40:04.535 896 Delete type=0 #85
+2020/05/15-23:16:34.115 896 Level-0 table #91: started
+2020/05/15-23:16:34.119 896 Level-0 table #91: 26896 bytes OK
+2020/05/15-23:16:34.121 896 Delete type=0 #88
+2020/05/16-00:01:48.085 896 Level-0 table #93: started
+2020/05/16-00:01:48.087 896 Level-0 table #93: 16691 bytes OK
+2020/05/16-00:01:48.089 896 Delete type=0 #90
+2020/05/16-00:09:35.364 896 Level-0 table #95: started
+2020/05/16-00:09:35.367 896 Level-0 table #95: 18812 bytes OK
+2020/05/16-00:09:35.369 896 Delete type=0 #92
+2020/05/16-00:09:35.369 896 Compacting 4@0 + 1@1 files
+2020/05/16-00:09:35.375 896 Generated table #96@0: 1401 keys, 123968 bytes
+2020/05/16-00:09:35.375 896 Compacted 4@0 + 1@1 files => 123968 bytes
+2020/05/16-00:09:35.377 896 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/05/16-00:09:35.377 896 Delete type=2 #91
+2020/05/16-00:09:35.377 896 Delete type=2 #89
+2020/05/16-00:09:35.377 896 Delete type=2 #95
+2020/05/16-00:09:35.377 896 Delete type=2 #93
+2020/05/16-00:09:35.377 896 Delete type=2 #87
+2020/05/16-11:54:41.801 896 Level-0 table #98: started
+2020/05/16-11:54:41.806 896 Level-0 table #98: 19822 bytes OK
+2020/05/16-11:54:41.808 896 Delete type=0 #94

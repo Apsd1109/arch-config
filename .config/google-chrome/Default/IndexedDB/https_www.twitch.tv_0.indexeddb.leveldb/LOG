@@ -1,0 +1,15 @@
+2020/05/09-14:49:26.749 6bd9d Reusing MANIFEST /home/anda/.config/google-chrome/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/09-14:49:26.750 6bd9d Recovering log #11
+2020/05/09-14:49:26.750 6bd9d Reusing old log /home/anda/.config/google-chrome/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/000011.log 
+2020/05/09-14:49:58.778 71f Level-0 table #16: started
+2020/05/09-14:49:58.782 71f Level-0 table #16: 469 bytes OK
+2020/05/09-14:49:58.784 71f Delete type=0 #11
+2020/05/09-14:49:58.785 71f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/09-14:49:58.785 71f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 86 : 1
+2020/05/09-14:49:58.785 71f Compacting 1@1 + 1@2 files
+2020/05/09-14:49:58.787 71f Generated table #17@1: 20 keys, 577 bytes
+2020/05/09-14:49:58.787 71f Compacted 1@1 + 1@2 files => 577 bytes
+2020/05/09-14:49:58.789 71f compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/09-14:49:58.789 71f Delete type=2 #16
+2020/05/09-14:49:58.789 71f Delete type=2 #13
+2020/05/09-14:49:58.789 71f Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 86 : 1 .. (end); will stop at (end)
