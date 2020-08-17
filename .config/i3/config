@@ -23,23 +23,17 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-# Use pactl to adjust volume in PulseAudio.
-
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+# Speaker
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle # mute sound
+# Mic
+bindsym Mod1+m exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
-bindsym Mod1+m exec --no-startup-id pactl set-source-mute 1 toggle
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
-
-#set $refresh_i3status killall -SIGUSR1 i3status
-#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
-#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-#bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -51,18 +45,19 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # Colours
-set $bg-colour 	         	#2f343f
-set $inactive-bg-colour		#2f343f
-set $text-colour          	#f3f4f5
+set $bg-colour 	         	#2F343F
+set $inactive-bg-colour		#2F343F
+set $text-colour          	#F3F4F5
 set $inactive-text-colour 	#676E7D
 set $urgent-bg-colour     	#E53935
+set $indicator-colour		#A0D6DA
 
 # Window Colours
 #                       border              	background         	text                 	indicator
-client.focused          $bg-colour           	$bg-colour          $text-colour          	#a0d6da
-client.unfocused        $inactive-bg-colour		$inactive-bg-colour $inactive-text-colour	#a0d6da
-client.focused_inactive $inactive-bg-colour		$inactive-bg-colour $inactive-text-colour 	#a0d6da
-client.urgent           $urgent-bg-colour    	$urgent-bg-colour   $text-colour          	#a0d6da
+client.focused          $bg-colour           	$bg-colour          $text-colour          	$indicator-colour
+client.unfocused        $inactive-bg-colour		$inactive-bg-colour $inactive-text-colour	$indicator-colour
+client.focused_inactive $inactive-bg-colour		$inactive-bg-colour $inactive-text-colour 	$indicator-colour
+client.urgent           $urgent-bg-colour    	$urgent-bg-colour   $text-colour          	$indicator-colour
 
 # Rofi
 bindsym $mod+d exec /home/anda/scripts/rofi.sh
@@ -101,9 +96,6 @@ bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
-
-# focus the child container
-#bindsym $mod+d focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -152,17 +144,6 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
-
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
-
-        # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
         bindsym Up resize shrink height 10 px or 10 ppt
@@ -176,10 +157,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
+#i3blocks for the bar
 bar {
-		#status_command i3status
         status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
 		colors {
 		background $bg-colour

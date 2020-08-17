@@ -1,5 +1,6 @@
 acpi
 alacritty
+alsa-utils
 arc-gtk-theme
 autoconf
 automake
@@ -22,6 +23,7 @@ git
 google-chrome
 groff
 grub
+gyazo
 hollywood
 htop
 i3-gaps
@@ -48,9 +50,11 @@ okular
 openssh
 os-prober
 patch
+pavucontrol
 pcmanfm
 picom
 pkgconf
+pulseaudio
 rofi
 screen-message
 sudo
