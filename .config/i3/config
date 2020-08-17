@@ -176,6 +176,7 @@ bindsym $mod+w exec google-chrome-stable
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 bindsym $mod+m exec sm
+bindsym $mod+p exec pcmanfm
 
 #STARTUP COMMANDS AND OTHER DEFAULTS
 exec_always /home/anda/scripts/mouse.sh
@@ -186,5 +187,8 @@ for_window [class="Google-chrome"] focus
 assign [class="Alacritty"] $ws2
 for_window [class="Alacritty"] focus
 assign [class="jetbrains-toolbox"] $ws3
+assign [class="jetbrains-pycharm"] $ws3
 assign [class="discord"] $ws10
 for_window [class="discord"] focus
+assign [class="Pcmanfm"] $ws4
+for_window [class="Pcmanfm"] focus
