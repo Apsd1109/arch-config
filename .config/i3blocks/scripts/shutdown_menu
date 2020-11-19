@@ -114,9 +114,9 @@ typeset -A menu
 menu=(
   [Shutdown]="systemctl poweroff"
   [Reboot]="systemctl reboot"
-  [Hibernate]="systemctl hibernate"
-  [Suspend]="systemctl suspend"
-  [Halt]="systemctl halt"
+  [Hibernate]="i3lock -c 000000 -e -i /home/anda/pictures/background/Glitch_Fox_1920x1080.png && systemctl hibernate"
+  #[Suspend]="systemctl suspend"
+  #[Halt]="systemctl halt"
   [Lock]="${LOCKSCRIPT:-i3lock -c 000000 -e -i /home/anda/pictures/background/Glitch_Fox_1920x1080.png}"
   [Logout]="i3-msg exit"
   [Cancel]=""
