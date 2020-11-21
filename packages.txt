@@ -55,7 +55,6 @@ os-prober
 patch
 pavucontrol
 pcmanfm
-picom
 pkgconf
 pulseaudio
 rofi
