@@ -1,4 +1,5 @@
 acpi
+acpilight
 alacritty
 alsa-utils
 arc-gtk-theme
@@ -86,12 +87,10 @@ xorg-server-devel
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
-xorg-server-xwayland
 xorg-sessreg
 xorg-smproxy
 xorg-x11perf
 xorg-xauth
-xorg-xbacklight
 xorg-xcmsdb
 xorg-xcursorgen
 xorg-xdpyinfo
@@ -113,6 +112,7 @@ xorg-xrdb
 xorg-xrefresh
 xorg-xsetroot
 xorg-xvinfo
+xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
